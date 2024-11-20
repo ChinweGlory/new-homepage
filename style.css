@@ -4,22 +4,24 @@
     box-sizing: border-box; 
 }
 
-:root {
-    --soft-orange: hsl(35, 77%, 62%);
-    --soft-red: hsl(5, 85%, 63%);
-  
-    /* Neutral Colors */
-    --off-white: hsl(36, 100%, 99%);
-    --grayish-blue: hsl(233, 8%, 79%);
-    --dark-grayish-blue: hsl(236, 13%, 42%);
-    --very-dark-blue: hsl(240, 100%, 5%);
-  }
-
   p .bttn {
     background-color: black;
     width: 250px;
   }
 
   p .bttn:hover {
-    background-color: var(--soft-red);
+    background-color: red;
   }
+  
+
+  .side-main {
+    padding: 20px;
+    background-color: darkblue;
+    
+  }
+
+  .txt {
+    color: rgba(255, 166, 0, 0.775);
+  }
+
+ 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css"
       rel="stylesheet"
@@ -12,103 +12,170 @@
   </head>
   <body>
     <nav class="bg-white border-gray-200 dark:bg-gray-900">
-        <div
-          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <img src="images/logo.svg" class="h-8" alt="" />
+
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default"
+          aria-expanded="false"
         >
-          <img src="images/logo.svg" class="h-8" alt="" />
-  
-          <button
-            data-collapse-toggle="navbar-default"
-            type="button"
-            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-            aria-controls="navbar-default"
-            aria-expanded="false"
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
           >
-            <span class="sr-only">Open main menu</span>
-            <svg
-              class="w-5 h-5"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 17 14"
-            >
-              <path
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M1 1h15M1 7h15M1 13h15"
-              />
-            </svg>
-          </button>
-  
-          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul
-              class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
-            >
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
-                  aria-current="page"
-                  >Home</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                  >New</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                  >Popular</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                  >Trending</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                  >Categories</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div id="container flex flex-row gap-10 px-10">
-        <div class="right-side">
-            <div class="main-img">
-                <img src="images/image-web-3-desktop.jpg" alt="Main image" class="w-30 pb-10" />
-            </div>
-            <div class="under-main flex flex-col md:flex-row justify-between">
-                <h1 class="text-5xl font-extrabold">The Bright <br> Future of Web <br> 3.0?</h1>
-                <p class="text-sm text-gray-500">
-                    We dive into the next evolution of the web that <br>claims to put the
-                    power of the platforms back <br>into the hands of the people. But is it
-                    really<br> fulfilling its promise?<br>
-                    <button type="button" class="bttn py-3 mt-2.5 w-1/2 text-xs font-medium text-center text-white">Read more</button>
-                    </p>
-        
-            </div>
-        </div>
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
 
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >New</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Popular</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Trending</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Categories</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
-      
+    </nav>
+    <div id="container" class="flex flex-col lg:flex-row gap-5 pb-5">
+      <div class="main">
+        <div class="main-img">
+          <img
+            src="images/image-web-3-desktop.jpg"
+            alt="Main image"
+            class="w-50 pb-10"
+          />
+        </div>
+        <div class="under-main flex flex-col md:flex-row justify-between">
+          <h1 class="text-5xl font-extrabold">
+            The Bright <br />
+            Future of Web <br />
+            3.0?
+          </h1>
+          <p class="text-sm text-gray-500">
+            We dive into the next evolution of the web that <br />claims to put
+            the power of the platforms back <br />into the hands of the people.
+            But is it really<br />
+            fulfilling its promise?<br />
+            <button
+              type="button"
+              class="bttn py-3 mt-2.5 w-1/2 text-xs font-medium text-center text-white"
+            >
+              Read more
+            </button>
+          </p>
+        </div>
+      </div>
 
-      
+      <div class="side-main">
+        <h2 class="txt text-4xl pb-4 pt-2">New</h2>
+        <div class="pb-8 first border-b-2 border-gray-500">
+          <h3 class="text-lg pb-2 text-white">Hydrogen VS Electric Cars</h3>
+          <p class="text-sm text-white">
+            Will hydrogen-fueled cars ever catch up to EVs?
+          </p>
+        </div>
+        <div class="pt-10 pb-8 border-b-2 border-gray-500 second">
+          <h3 class="txt text-lg pb-2">The Downsides of AI Artistry</h3>
+          <p class="text-sm text-white">
+            What are the possible adverse effects of on-demand AI image
+            generation?
+          </p>
+        </div>
+        <div class="pt-10 third">
+          <h3 class="text-white pb-2">Is VC Funding Drying Up?</h3>
+          <p class="text-sm text-white">
+            Private funding by VC firms is down 50% YOY. We take a look at what
+            that means.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="main-two flex flex-col md:flex-row flex-wrap lg:flex-nowrap gap-5 pb-10">
+        <div class="footer-one flex gap-4 relative flex-row">
+            <img src="images/image-top-laptops.jpg" alt="" class="h-36"/>
+            <div class="max-w-[200px]">
+            <span class="text-2xl text-gray-500"> 01</span>
+            <h4 class="font-extrabold">Reviving Retro PCs</h4>
+            <p class="text-sm text-gray-500 leading-6 w-8/12">What happens when <br> old PCs are given <br> modern upgrades?</p>
+          </div>
+      </div>
+      <div class="footer-two flex gap-4 relative flex-row">
+        <img src="images/image-retro-pcs.jpg" alt="" class="h-36" />
+        <div class="max-w-[200px]">
+        <span class="text-2xl text-gray-500"> 02</span>
+        <h4 class=" text-red-400">Top 10 Laptops of 2022</h4>
+        <p class="text-sm text-gray-500">ur best picks for various needs <br> and budgets.</p>
+      </div>
+    </div>
+    <div class="footer-three flex gap-4 relative flex-row">
+        <img src="images/image-gaming-growth.jpg" alt="" class="h-36" />
+        <div class="max-w-[200px]">
+        <span class="text-2xl text-gray-500"> 03</span>
+        <h4 class="font-extrabold">The Growth of Gaming</h4>
+        <p class="text-sm text-gray-500 leading-6">How the pandemic has <br> sparked fresh opportunities.</p>
+      </div>
+    </div>
 
-      <script src="script.js" defer></script>
+    </div>
+    <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/ChinweGlory">Chinwe Glory</a>.
+      </div>
+
+   
+    <script src="script.js" defer></script>
 
     <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
   </body>
