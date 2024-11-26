@@ -16,7 +16,7 @@
 
   .side-main {
     padding: 20px;
-    background-color: darkblue;
+    background-color: hsl(240, 100%, 5%);
     
   }
 
@@ -24,4 +24,12 @@
     color: rgba(255, 166, 0, 0.775);
   }
 
- 
+ #root {
+  --orange: hsl(35, 77%, 62%);
+  --red: hsl(5, 85%, 63%);
+  --white: hsl(36, 100%, 99%);
+  --blue: hsl(233, 8%, 79%);  
+  --Dark-grayish-blue: hsl(236, 13%, 42%);
+  --dark-blue: hsl(240, 100%, 5%);
+
+ }
