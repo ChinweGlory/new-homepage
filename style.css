@@ -1,35 +1,40 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box; 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-  p .bttn {
-    background-color: black;
-    width: 250px;
-  }
+p .bttn {
+  background-color: black;
+  width: 250px;
+}
 
-  p .bttn:hover {
-    background-color: red;
-  }
-  
+p .bttn:hover {
+  background-color: red;
+}
 
-  .side-main {
-    padding: 20px;
-    background-color: hsl(240, 100%, 5%);
-    
-  }
+.side-main {
+  padding: 20px;
+  background-color: hsl(240, 100%, 5%);
+}
 
-  .txt {
-    color: rgba(255, 166, 0, 0.775);
-  }
+.txt {
+  color: rgba(255, 166, 0, 0.775);
+}
 
- #root {
+#root {
   --orange: hsl(35, 77%, 62%);
   --red: hsl(5, 85%, 63%);
   --white: hsl(36, 100%, 99%);
-  --blue: hsl(233, 8%, 79%);  
+  --blue: hsl(233, 8%, 79%);
   --Dark-grayish-blue: hsl(236, 13%, 42%);
   --dark-blue: hsl(240, 100%, 5%);
+}
 
- }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
